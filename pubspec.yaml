@@ -1,0 +1,55 @@
+name: pawdopt
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  confetti: ^0.7.0
+  shared_preferences: ^2.0.16
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+
+
+  fonts:
+    - family: CBYG
+      fonts:
+        - asset: fonts/CoveredByYourGrace-Regular.ttf
+
+    - family: PatrickHand
+      fonts:
+        - asset: fonts/PatrickHand-Regular.ttf
+
+    - family: Jua
+      fonts:
+        - asset: fonts/Jua-Regular.ttf
+
+    - family: NunitoRegular
+      fonts:
+        - asset: fonts/NunitoSans-Regular.ttf
+
+    - family: NunitoBold
+      fonts:
+        - asset: fonts/NunitoSans-Bold.ttf
+
+
